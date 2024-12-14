@@ -1,0 +1,51 @@
+body{
+    background-color: pink;
+    color: palevioletred !important ;
+}
+
+.container{
+    background-color:white;
+    border:2px solid palevioletred;
+    border-radius: 8px;
+    margin-top: 130px;
+
+    padding-right:15px ;
+    padding-left:15px ;
+    padding-top:50px;
+    padding-bottom:50px;
+    width:45%;
+    
+}
+
+input{
+    border:none;
+    border:2px solid palevioletred;
+    color:palevioletred;
+    border-radius: 5px !important;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+input::placeholder{
+
+    color:palevioletred;
+    opacity:.3;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+input:focus {
+    border-color: palevioletred;  
+    outline-color: pink;
+    border-radius: 5px !important;
+           }
+
+ button{
+    color:palevioletred;
+    background-color: pink;
+    border: 2px solid palevioletred;
+    border-radius: 6px;
+    margin-top: 15px;
+    
+ }
